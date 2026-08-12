@@ -19,12 +19,18 @@ public class Main {
 
         if (choice == 1) {
             System.out.println("Let's select a country");
+
+            String[] countries = {"USA", "Bermuda", "Canada"};
         }
         else if (choice == 2) {
             System.out.println("Let's select a continent");
+
+            String[] continents = {"North America", "South America"};
         }
         else if (choice == 3) {
             System.out.println("Let's select a city");
+
+            String[] cities = {"Atlanta", "New York", "Toronto", "Hamilton", "St George's"};
         }
         else {
             System.out.println("Please choose between option 1, 2, and 3.");
